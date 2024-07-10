@@ -48,7 +48,7 @@ else:
     
 RTC_CONFIGURATION = ({
     "iceServers": [
-        {"urls": "relay1.expressturn.com:3478", "username": "efN5UEXYAUXKY7AJYR", "credential": "H5dxcI4wCwLjdSUS"}
+        {"urls": "turn:relay1.expressturn.com:3478", "username": "efN5UEXYAUXKY7AJYR", "credential": "H5dxcI4wCwLjdSUS"}
     ]
 })
 
