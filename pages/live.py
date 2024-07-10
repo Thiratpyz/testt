@@ -85,7 +85,7 @@ ctx = webrtc_streamer(
 
 if st.button("Back to YUEDMAI"):
     st.markdown("""
-        <meta http-equiv="refresh" content="0; url='http://localhost:5173/'" />
+        <meta http-equiv="refresh" content="0; url='https://yuedmaitest.vercel.app/'" />
         """, unsafe_allow_html=True
     )
 
