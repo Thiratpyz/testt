@@ -3,8 +3,8 @@ import mediapipe as mp
 import numpy as np
 
 # Attempt to read the image files
-correct = cv2.imread('../right.png')
-incorrect = cv2.imread('../wrong.png')
+correct = cv2.imread('./right.png')
+incorrect = cv2.imread('./wrong.png')
 
 # Check if images were successfully loaded
 if correct is None:
