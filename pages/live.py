@@ -75,7 +75,7 @@ def out_recorder_factory() -> MediaRecorder:
 ctx = webrtc_streamer(
                         key="Squats-pose-analysis",
                         video_frame_callback=video_frame_callback,
-                        rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},  # Add this config
+                        rtc_configuration={"iceServers": [{"urls": "relay1.expressturn.com:3478", "username": "efN5UEXYAUXKY7AJYR", "credential": "H5dxcI4wCwLjdSUS"}]},  # Add this config
                         media_stream_constraints={"video": {"width": {'min':480, 'ideal':480}}, "audio": False},
                         video_html_attrs=VideoHTMLAttributes(autoPlay=True, controls=False, muted=False),
                         out_recorder_factory=out_recorder_factory
