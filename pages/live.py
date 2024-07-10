@@ -46,7 +46,7 @@ if result.data:
 else:
     st.subheader(':red[! There is no any token embedded in url !]')
     
-RTC_CONFIGURATION = RTCConfiguration({
+RTC_CONFIGURATION = ({
     "iceServers": [
         {"urls": "relay1.expressturn.com:3478", "username": "efN5UEXYAUXKY7AJYR", "credential": "H5dxcI4wCwLjdSUS"}
     ]
